@@ -1,9 +1,21 @@
 # Getting Started
-Install the dependencies and run the project in watch mode
-```
-npm install
-npm run build # or watch to rebuild on change
-open index.html
-```
-Note that using Webpack is obselete and this archive has been provided
-for compatibility reasons. Prefer using Vite, check it at https://vitejs.dev
+
+Pre requisite:
+Verify if node and npm is already installed:
+node -v
+  v20.10.0
+npm -v
+  10.2.5
+
+Install vite:
+npm create vite@latest
+  Project name:Name of your choice(eg. vite-project)
+  Framework:react
+  Variant:Javascript
+
+  cd vite-project
+  npm install
+  npm run dev
+  
+
+
